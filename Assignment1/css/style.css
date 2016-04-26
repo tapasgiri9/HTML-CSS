@@ -19,20 +19,20 @@ nav ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: grey;
+  background-color: blue;
 
 }
 
 nav li{
   display: inline;
-  font-size: 20px;
+  font-size: 18px;
 
 }
 nav li a{
   display: inline-block;
-  color: blue;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
 }
 nav li a:hover{
@@ -59,13 +59,6 @@ nav li a:hover{
 }
 
 
-
-
-
-
-
-
-
 /*Style for Reason text header*/
 .reason-text{
 color: #b48608;
@@ -79,8 +72,6 @@ text-align: center;
 margin-top: 20px;
 
 }
-
-
 
 
 
@@ -120,8 +111,6 @@ margin-top: 20px;
   font-size: 20px;
 
 }
-
-
 
 .content-climate h1{
   color: #CEF0D4;
@@ -272,7 +261,7 @@ margin-top: 20px;
   margin: 0 0 50px;
   text-align: center;
   text-shadow: 1px 1px 2px #082b34;
-    margin-left: -130px;
+  margin-left: -130px;
 
 }
 
@@ -430,8 +419,8 @@ margin-top: 20px;
 }
 /*Style for instagram logo*/
 .insta{
-  width:50px;
-  height: 50px;
+  width:40px;
+  height: 40px;
   margin-top: -20px;
 }
 
@@ -463,4 +452,8 @@ margin-top: 20px;
   margin-top: 20px;
   width: 300px;
   height: 250px;
+}
+
+.white{
+  background-color: white;
 }
