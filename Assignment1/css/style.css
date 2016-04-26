@@ -1,0 +1,466 @@
+/*Style for header part */
+/*Style for Bangalore One logo*/
+.header blockquote{
+  color: #d54d7b;
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+
+}
+/*Style for the menu bar*/
+nav{
+  float: right;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+
+}
+
+nav li{
+  display: inline;
+  font-size: 20px;
+
+}
+nav li a{
+  display: inline-block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover{
+  background-color: #111;
+}
+/*End of header section*/
+
+/*Style for hero content*/
+/*Style for heo image conent*/
+.hero{
+  background-image: url("../img/building.jpg");
+  height:400px;
+  margin-top:80px;
+}
+
+/*Style for text inside the image*/
+.hero p{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 250px;
+  font-style: italic;
+  color: #000033;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/*Style for Reason text header*/
+.reason-text{
+color: #b48608;
+font-family: 'Droid serif', serif;
+font-size: 45px;
+font-weight: 500;
+font-style: italic;
+line-height: 44px;
+margin: 0 0 12px;
+text-align: center;
+margin-top: 20px;
+
+}
+
+
+
+
+
+/*Style for the art section*/
+.content-art p{
+  margin-top: -25px;
+  font-style: italic;
+  font-size: 20px;
+  margin-left: -40px;
+
+}
+
+.content-art h1{
+  color: #CEF0D4;
+  font-family: 'Rouge Script', cursive;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #082b34;
+  margin-left: -35px;
+
+}
+
+.content-art img{
+
+  margin-top:20px;
+  width:420px;
+  height:300px;
+}
+
+/*Style for the climate section*/
+.content-climate p{
+  margin-top: -25px;
+  font-style: italic;
+  font-size: 20px;
+
+}
+
+
+
+.content-climate h1{
+  color: #CEF0D4;
+  font-family: 'Rouge Script', cursive;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #082b34;
+
+}
+
+.content-climate img{
+
+  margin-top:30px;
+  width:420px;
+  height:300px;
+}
+
+/*Style for party section*/
+.content-party p{
+  margin-top: -25px;
+  font-style: italic;
+  font-size: 20px;
+  margin-left: -100px;
+
+}
+
+.content-party h1{
+  color: #CEF0D4;
+  font-family: 'Rouge Script', cursive;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #082b34;
+  margin-left: -110px;
+
+}
+
+.content-party img{
+
+  margin-top:30px;
+  width:420px;
+  height:300px;
+}
+
+/*Style for technology section*/
+.content-tech p{
+  margin-top: -25px;
+  font-style: italic;
+  font-size: 20px;
+
+}
+
+.content-tech h1{
+  color: #CEF0D4;
+  font-family: 'Rouge Script', cursive;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #082b34;
+  margin-left: -40px;
+
+}
+
+.content-tech img{
+
+  margin-top:30px;
+  width:420px;
+  height:300px;
+}
+
+/*Style for food section*/
+.content-food p{
+  margin-top: -25px;
+  font-style: italic;
+  font-size: 20px;
+
+}
+
+.content-food h1{
+  color: #CEF0D4;
+  font-family: 'Rouge Script', cursive;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #082b34;
+
+}
+
+.content-food img{
+
+  margin-top:30px;
+  width:420px;
+  height:300px;
+}
+
+/*Style for monument section*/
+.content-monument p{
+  margin-top: -25px;
+  font-style: italic;
+  font-size: 20px;
+
+}
+
+.content-monument h1{
+  color: #CEF0D4;
+  font-family: 'Rouge Script', cursive;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #082b34;
+
+}
+
+.content-monument img{
+
+  margin-top:30px;
+  width:420px;
+  height:300px;
+}
+
+/*Style for airshow section*/
+.content-airshow p{
+  margin-top: -25px;
+  font-style: italic;
+  font-size: 20px;
+  margin-left: -60px;
+
+
+}
+
+.content-airshow h1{
+  color: #CEF0D4;
+  font-family: 'Rouge Script', cursive;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #082b34;
+    margin-left: -130px;
+
+}
+
+.content-airshow img{
+
+  margin-top:30px;
+  width:420px;
+  height:300px;
+}
+
+/*Style for shopping section*/
+.content-shopping p{
+  margin-top: -25px;
+  font-style: italic;
+  font-size: 20px;
+
+}
+
+.content-shopping h1{
+  color: #CEF0D4;
+  font-family: 'Rouge Script', cursive;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #082b34;
+
+}
+
+.content-shopping img{
+
+  margin-top:30px;
+  width:420px;
+  height:300px;
+}
+
+/*Style for tourism section*/
+.content-tourism p{
+  margin-top: -25px;
+  font-style: italic;
+  font-size: 20px;
+  margin-left: -100px;
+
+
+}
+
+.content-tourism h1{
+  color: #CEF0D4;
+  font-family: 'Rouge Script', cursive;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #082b34;
+  margin-left: -120px;
+
+}
+
+.content-tourism img{
+
+  margin-top:30px;
+  width:480px;
+  height:300px;
+}
+
+/*Style for 3 column section*/
+/*Style for "Must visited places"*/
+.more-reason-text{
+color: #b48608;
+font-family: 'Droid serif', serif;
+font-size: 45px;
+font-weight: 500;
+font-style: italic;
+line-height: 44px;
+margin: 0 0 12px;
+text-align: center;
+margin-top: 20px;
+
+}
+
+/*Style for text-font for "Must Visited places"*/
+.three-columns-text-change{
+  font-size: 15px;
+  font-family: 'Rouge Script', cursive;
+  margin-top: 10px;
+}
+
+/*Style for images for "Must Visited places"*/
+.three-columns-text-change img{
+  margin-top: 20px;
+  width: 300px;
+  height: 250px;
+}
+
+/*Style for read-more button*/
+.button-read-more{
+  padding: 2px 2px 2px 2px;
+  background-color: #7e7e7e;
+  float: right;
+
+
+}
+
+/*Style for Footer section*/
+
+/*Style for footer background section*/
+.back{
+  margin-top: 20px;
+  background-color:pink;border-radius:30px;
+  height: 150px;
+}
+
+/*Style for contact us content*/
+.contact{
+  font-size: 20px;
+  font-style: italic;
+}
+
+/*Style for address content*/
+.address{
+
+  font-style: italic;
+}
+/*Style for email text*/
+.email{
+  font-style: italic;
+}
+
+/*Style for email text-box*/
+.txtbox{
+  margin-left: -7px;
+  border-radius: 80px;
+
+
+}
+
+/*Style for email subscribe button*/
+.submitbutton{
+  color:red;
+  margin-top: 20px;
+}
+/*Style for facebook logo*/
+.fb{
+  width:50px;
+  height: 50px;
+  margin-top: -20px;
+}
+/*Style for twitter logo*/
+.tweet{
+  width:35px;
+  height:35px;
+  margin-top: -20px;
+}
+/*Style for instagram logo*/
+.insta{
+  width:50px;
+  height: 50px;
+  margin-top: -20px;
+}
+
+/*Style for gateway.html*/
+
+/*Section of gateway-places-text head */
+.gateway-text{
+color: #b48608;
+font-family: 'Droid serif', serif;
+font-size: 45px;
+font-weight: 500;
+font-style: italic;
+line-height: 44px;
+margin: 0 0 12px;
+text-align: center;
+margin-top: 20px;
+
+}
+
+/*Section of gateway-places-text description font */
+.gateway-columns-text-change{
+  font-size: 15px;
+  font-family: 'Rouge Script', cursive;
+  margin-top: 10px;
+}
+
+/*Section of gateway-places image styling */
+.gateway-columns-text-change img{
+  margin-top: 20px;
+  width: 300px;
+  height: 250px;
+}
