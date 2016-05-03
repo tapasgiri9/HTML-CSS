@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Code a Responsive Website with Twitter Bootstrap 3</title>
+
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+
+
+	</head>
+	<body>
+
+		<div class="container" id="main">
+
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="/"><img src="images/logo.jpg" alt="My Logo"></a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Electronics</a>
+									</li>
+
+									<li>
+										<a href="#">Home Appliances</a>
+									</li>
+
+									<li>
+										<a href="#">Accessories</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li class="dropdown-header">Fashion</li>
+
+									<li>
+										<a href="#">Men's Fashion</a>
+									</li>
+
+									<li>
+										<a href="#">Women's Fashion</a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li>
+						</ul>
+
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+
+
+			<div class="carousel slide" id="myCarousel">
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+            <img src="images/iphone.jpg" alt="slide1" />
+						<div class="carousel-caption">
+							<h4>Apple devices</h4>
+							<p>This season...Apple products with discounts upto 10%</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide2">
+              <img src="images/women-fashion.jpg" alt="slide2" />
+						<div class="carousel-caption">
+							<h4>Women'Fashion</h4>
+							<p>Large number of collections for women this season.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide3">
+            <img src="images/mens-spring-fashion-large.jpg" alt="slide3" />
+						<div class="carousel-caption">
+							<h4>Men's Fashion</h4>
+							<p>Buy with huge discounts....</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+			</div><!-- end myCarousel -->
+
+
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+
+
+
+					<!-- Visible only on small devices -->
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>Need Help? Give us a call!</a>
+					</div><!-- end well-small -->
+
+					<div class="well">
+						<div class="page-header">
+							<h1>Brandpoint<br><small>We know brands</small></h1>
+						</div><!-- end page-header -->
+
+						<p class="lead">We have hundreds of branded electronics in brandpoint.Order from us.We deliver you in no time.</p>
+
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Login</button>
+            <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="col-lg-2 control-label" for="inputName" >Email</label>
+
+            <div class="col-lg-10">
+              <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+            </div><!--end col-lg-10-->
+          </div><!--end form-group-->
+
+          <div class="form-group">
+            <label class="col-lg-2 control-label" for="inputPassword" >Password</label>
+
+            <div class="col-lg-10">
+              <input class="form-control" id="inputPassword" placeholder="Password" type="password">
+            </div><!--end col-lg-10-->
+          </div><!--end form-group-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sign In</button>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+						<a href="" class="btn btn-large btn-link">Register</a>
+					</div><!-- end well -->
+
+				</div><!-- end col-12 -->
+			</div><!-- end bigCallout -->
+
+
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2>Trending iPhones</h2>
+					<p class="lead">Newly Launched Apple iPhone clearance sale with discounts </p>
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+
+
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">iPhone SE</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/iphone-200.png" alt="iphone-se">
+
+						<p>Welcome to iPhone SE, the most powerful 4-inch phone ever. To create it,
+              we started with a beloved design, then reinvented it from the inside out.
+              The A9 is the same advanced chip used in iPhone 6s. The 12‑megapixel camera
+              captures incredible photos and 4K videos. And Live Photos bring your images to life.
+              The result is an iPhone that looks small. But lives large.</p>
+
+						<a href="#" target="_blank" class="btn btn-warning btn-block">Buy now</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">iPhone 6s</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/iphone6s-200.jpg" alt="iphone6s" >
+
+						<p>Welcome to iPhone 6s, the most powerful 4-inch phone ever. To create it,
+              we started with a beloved design, then reinvented it from the inside out.
+              The A9 is the same advanced chip used in iPhone 6s. The 12‑megapixel camera
+              captures incredible photos and 4K videos. And Live Photos bring your images to life.
+              The result is an iPhone that looks small. But lives large.</p>
+
+						<a href="#" target="_blank" class="btn btn-danger btn-block">Buy now</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Framework by Bootstrap 3</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/iphone5s-200.jpg" alt="iphone5s">
+
+						<p>Welcome to iPhone 5s, the most powerful 4-inch phone ever. To create it,
+              we started with a beloved design, then reinvented it from the inside out.
+              The A9 is the same advanced chip used in iPhone 6s. The 12‑megapixel camera
+              captures incredible photos and 4K videos. And Live Photos bring your images to life.
+              The result is an iPhone that looks small. But lives large.</p>
+
+						<a href="#" target="_blank" class="btn btn-info btn-block">Buy now</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+
+
+      <!--Cities we deliver-->
+    <div id="portfolio" class="container-fluid text-center">
+  <h2>Places </h2><br>
+  <h4>Where can we deliver</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/paris.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Paris</strong></p>
+
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/newyork.jpg" alt="New York" width="400" height="300">
+        <p><strong>New York</strong></p>
+
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/sanfran.jpg" alt="San Francisco" width="400" height="300">
+        <p><strong>San Francisco</strong></p>
+
+      </div>
+    </div>
+
+  </div><br>
+</div>
+	</div><!-- end container -->
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+  <div class="col-sm-3">
+    <h3>BrandPoint</h3>
+    <p>Our mission is to make people lazy making online delivery wasy throught the world.</p>
+  </div><!--end col-sm-3-->
+
+  <div class="col-sm-3">
+    <h3>Get to know us</h3>
+    <a href="#">About us</a><br>
+    <a href="#">Contact us</a><br>
+    <a href="#">Community</a><br>
+    <a href="#">Careers</a><br>
+
+  </div><!--end col-sm-3-->
+
+  <div class="col-sm-3 hidden-sm">
+    <h3>Find us</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5538819353847!2d77.61165441488278!3d12.93636951915038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e79c0e877%3A0x2bdca5fc86194db9!2s7th+Block%2C+Koramangala%2C+Bengaluru%2C+Karnataka+560095!5e0!3m2!1sen!2sin!4v1461926681260"
+		width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+  </div><!--end col-sm-3-->
+
+  <div class="col-sm-3">
+    <h3>Connect with us</h3>
+  	<img src="images/logo-fb.png" width="30" height="30"/>
+		<img src="images/twitter-logo.png" width="30" height="30"/>
+		<img src="images/instagram-logo.png"/>
+
+  </div><!--end col-sm-3-->
+</div>
+</div>
+</footer>
+
+
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
